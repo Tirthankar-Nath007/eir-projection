@@ -10,7 +10,7 @@ const EIRIncomeProjectionTool = () => {
   const [results, setResults] = useState(null);
   const [productType, setProductType] = useState('Other Products'); // 'Other Products' or 'Tractor'
 
-  const logoUrl = "https://tse2.mm.bing.net/th/id/OIP.UhsMBcYQftENtB5Q4LG4QQHaEK?pid=Api&P=0&h=180";
+  const logoUrl = "./tvscredit-logo.jfif";
 
   // ==================== CALCULATION FUNCTIONS ====================
   const PMT = (rate, nper, pv) => {
